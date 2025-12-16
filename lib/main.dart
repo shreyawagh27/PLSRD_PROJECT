@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'para_page.dart';
 import 'record_page.dart';
 
 
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Recording UI Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const RecordingPage(), 
+      // title: 'Recording UI Demo',
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue,
+      // ),
+      home: const ReadingContentPage(), 
     );
   }
 }
