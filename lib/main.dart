@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'para_page.dart';
 import 'record_page.dart';
+import 'task_list_page.dart';
 
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: Colors.blue,
       // ),
-      home: const ReadingContentPage(), 
+      home: const TaskListPage(), 
     );
   }
 }
